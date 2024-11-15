@@ -1,9 +1,0 @@
-__pycache__/
-*.pyc
-.DS_Store
-vehicle_counts.xlsx
-vehicle_ids.json
-test.py
-yolov5nu.pt
-SSHKEY
-SSHLEY.PUB
