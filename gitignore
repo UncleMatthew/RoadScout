@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+vehicle_counts.xlsx
+vehicle_ids.json
+yolov5nu.pt
