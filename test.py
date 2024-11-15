@@ -1,11 +1,15 @@
-from ultralytics import YOLO
+import cv2
 
-def setup_model():
-    model = YOLO("yolov5nu.pt")
-    return model
+def test_camera(index):
+    cap = cv2.VideoCapture(index)
+    if not cap.isOpened():
+        print(f"Cannot open camera at index {index}")
+    else:
+        print(f"Camera at index {index} opened successfully")
+    cap.release()
 
-if __name__ == "__main__":
-    print("Loading YOLO model...")
-    model = setup_model()
-    print("YOLO model loaded successfully.")
+# Test camera indices
+test_camera(0)
+test_camera(1)
+test_camera(2)
 
