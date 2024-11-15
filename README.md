@@ -1,4 +1,4 @@
-# RoadScout
+# RoadScout! 🚗📊💻
 
 RoadScout is a machine vision project designed to track vehicles in real-time using YOLO (You Only Look Once) object detection and SORT (Simple Online and Realtime Tracking). It records vehicle data and exports it to a spreadsheet for analysis. This tool is ideal for traffic monitoring, vehicle counting, and data-driven insights.
 
