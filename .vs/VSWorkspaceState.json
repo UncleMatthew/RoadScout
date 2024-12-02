@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Client",
+    "\\Server",
+    "\\Server\\TrafficData"
+  ],
+  "SelectedNode": "\\Server\\vehicle_data.db",
+  "PreviewInSolutionExplorer": false
+}
